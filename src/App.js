@@ -14,7 +14,7 @@ function App() {
 		<div>
 			<CartContextProvider>
 				<Routes>
-					<Route path="/" element={<Login />}></Route>
+					<Route path="/Login" element={<Login />}></Route>
 
 					<Route path="/Store" element={<Store />}></Route>
 
